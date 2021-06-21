@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Build with Maven
-      run: mvn -B package --file ./bf-client03-javaspring-app03-main/pom.xml
+      run: mvn -B package --file bf-client03-javaspring-app03-main/pom.xml
